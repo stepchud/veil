@@ -40,8 +40,8 @@ defmodule Veil.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.19", only: :dev},
-      {:swoosh, "~> 0.13"},
-      {:phoenix_swoosh, "~> 0.2"},
+      {:swoosh, "~> 1.7"},
+      {:phoenix_swoosh, "~> 1.0"},
       {:quantum, "~> 3.0"},
       {:plug, "~> 1.3"},
       {:cachex, "~> 3.1"}

@@ -1,3 +1,3 @@
 defmodule Veil.Scheduler do
-  use Quantum.Scheduler, otp_app: :veil
+  use Quantum, otp_app: :veil
 end

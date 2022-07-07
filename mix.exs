@@ -1,7 +1,7 @@
 defmodule Veil.MixProject do
   use Mix.Project
 
-  @version "0.2.4"
+  @version "0.2.5"
 
   def project do
     [
@@ -42,7 +42,7 @@ defmodule Veil.MixProject do
       {:ex_doc, "~> 0.19", only: :dev},
       {:swoosh, "~> 0.13"},
       {:phoenix_swoosh, "~> 0.2"},
-      {:quantum, "~> 2.3"},
+      {:quantum, "~> 3.0"},
       {:plug, "~> 1.3"},
       {:cachex, "~> 3.1"}
     ]

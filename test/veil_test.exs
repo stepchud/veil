@@ -2,7 +2,7 @@ defmodule VeilTest do
   use ExUnit.Case
   doctest Veil
 
-  test "greets the world" do
-    assert Veil.hello() == :world
+  test "creates the binary secret" do
+    assert is_binary(Veil.Secret.get())
   end
 end
